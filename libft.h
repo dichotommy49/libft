@@ -6,7 +6,7 @@
 /*   By: tmelvin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/08 12:23:58 by tmelvin           #+#    #+#             */
-/*   Updated: 2019/12/01 13:36:46 by tmelvin          ###   ########.fr       */
+/*   Updated: 2019/12/17 21:15:24 by tmelvin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,5 +76,11 @@ char				*ft_uitoa(unsigned int n);
 char				*ft_convert_base(char *nbr, char *base_from, char *base_to);
 void				*ft_strrev(char *str);
 char				*ft_ultoa(unsigned long n);
+char				*ft_lltoa(long long n);
+char				*ft_ulltoa(unsigned long long n);
+char				*ft_convert_base_unsigned(char *nbr, char *base_from,
+		char *base_to);
+size_t				ft_wcharlen(unsigned int wc);
+size_t				ft_wstrlen(unsigned int *s);
 
 #endif
